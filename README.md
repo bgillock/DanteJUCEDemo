@@ -11,8 +11,8 @@ Requirements:
 Steps:
 1. Clone this repo
 2. Copy include\audinate folder from DAL distribution to AudioRecordingDemo\Audinate\audinate
-   a. Should end up with the Types.hpp file on this path ..\DanteJuceDemo\AudioRecordingDemo\Audinate\audinate\dal\Types.hpp
-   b. Edit the Types.hpp file and comment out the #include <winsock2.h> line as it is already included in JUCE
+- Should end up with the Types.hpp file on this path ..\DanteJuceDemo\AudioRecordingDemo\Audinate\audinate\dal\Types.hpp
+- Edit the Types.hpp file and comment out the #include <winsock2.h> line as it is already included in JUCE
 3. Copy your access_token.c file to AudioRecordingDemo\Audinate\access_token.c
 4. Open HostPluginDemo/HostPluginDemo/Builds/VisualStudio2022/DanteJUCEDemo.sln in VS20225. Build solution -> *Will report missing dal.lib*
 5. Copy all .lib files from lib\vs2015-dll\Debug\x64 in your DAL distrib to HostPluginDemo\HostPluginDemo\Builds\VisualStudio2022\x64\Debug\Shared Code
